@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AdminExpress</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main class="grid-container">
+
+        <section class="left-panel">
+            <h1>AdminExpress</h1>
+        </section>
+
+        <section class="right-panel">
+            <article class="login-box">
+
+                <header>
+                    <h2>Let's <strong>Sign In</strong> </h2>
+                    <p class="subtitle">Hey, Enter your details to get sign in<br>to your account.</p>
+                </header>
+
+                <form action="#">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                            <input type="email" id="email" placeholder="Enter Email" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-lock" aria-hidden="true"></i>
+                            <input type="password" id="password" placeholder="Enter Password" required>
+                            <i class="fa-regular fa-eye-slash show-pwd" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="forgot-password">
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="btn-signin">Sign In</button>
+                </form>
+
+                <footer>
+                    <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+                </footer>
+
+            </article>
+        </section>
+    </main>
+</body>
+</html>
